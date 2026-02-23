@@ -13,7 +13,7 @@
         "laravel/framework": "^10.0|^11.0|^12.0",
         "laravel/nova": "^4.0|^5.0",
         "livewire/livewire": "^3.0|4.0",
-        "rhyslees/nova-about": "^2"
+        "rhyslees/nova-about": "dev-main"
     },
     "require-dev": {
         "laravel/pint": "^1.11"
@@ -29,5 +29,11 @@
                 "RhysLees\\NovaImpersonatingBanner\\NovaImpersonatingBannerServiceProvider"
             ]
         }
-    }
+    },
+        "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/jsznap/nova-about",
+            "canonical": false
+        },
 }
